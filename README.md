@@ -39,7 +39,7 @@ o se puede uilizar el operador OR.
 
 ![consulta5](./img/consulta5.png "consulta5")
 
-6. si se desea obtener los registros cuyos nokbres empiecen por la letrea 'A', se debe utilizar el operador LIKE que utiliza los patrones '%' (todos)  '_' (caracter).
+6. si se desea obtener los registros cuyos nokbres empiecen por la letra 'A', se debe utilizar el operador LIKE que utiliza los patrones '%' (todos)  '_' (caracter).
 
 `SELECT * FROM usuario WHERE nombre LIKE 'A%'`
 
@@ -57,4 +57,9 @@ o se puede uilizar el operador OR.
 
 ![consulta8](./img/consulta8.png "consulta8")
 
-9. 
+9. si se desea obtener los registros cuya identificacion este entre el intervalo 110 y 150, se deb utilizar la clausula BETWEEN , sirve para especificar un intervalo de valores. 
+
+`SELECT * FROM usuario WHERE Identificacion BETWEEN '110' AND '150'`
+
+![consulta9](./img/consulta9.png "consulta9")
+
