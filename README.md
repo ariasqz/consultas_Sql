@@ -71,5 +71,11 @@ o se puede uilizar el operador OR.
 
 ![consulta10](./img/consulta10.png "consulta10")
 
+## COMANDO UPDATE 
 
+11. para acualizar la ciudad  de nacimiento de cristian Vanegas, cuya identificacion es 114.
+
+`UPDATE usuario SET ciudad_nac = 'Manizales' WHERE identificacion= '114'`
+
+![consulta11](./img/consulta11.png "consulta11")
 
