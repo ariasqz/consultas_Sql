@@ -39,3 +39,8 @@ o se puede uilizar el operador OR.
 
 ![consulta5](./img/consulta5.png "consulta5")
 
+6. si se desea obtener los registros cuyos nokbres empiecen por la letrea 'A', se debe utilizar el operador LIKE que utiliza los patrones '%' (todos)  '_' (caracter).
+
+`SELECT * FROM usuario WHERE nombre LIKE 'A%'`
+
+![consulta6](./img/consulta6.png "consulta6")
