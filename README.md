@@ -63,3 +63,13 @@ o se puede uilizar el operador OR.
 
 ![consulta9](./img/consulta9.png "consulta9")
 
+## COMANDO DELETE 
+
+10. para eliminar solamente los registros cuya identificacion sea mayor de 130.
+
+`DELETE FROM usuario WHERE Identificacion>'130'`
+
+![consulta10](./img/consulta10.png "consulta10")
+
+
+
