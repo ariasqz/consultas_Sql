@@ -79,3 +79,10 @@ o se puede uilizar el operador OR.
 
 ![consulta11](./img/consulta11.png "consulta11")
 
+## INNER JOIN 
+
+permite obtener datos de dos o mas tablas. cuando se realiza la concatenacion de las tablas, no necesariamente  se debn mostrar todos los datos de las tablas.
+
+## TABLA PEDIDOS
+
+![tabla pedidos](./img/tabla_pedidos.png "tabla pedidos")
