@@ -92,3 +92,9 @@ permite obtener datos de dos o mas tablas. cuando se realiza la concatenacion de
 `SELECT usuario.identificacion, usuario.nombre, usuario.apellidos, pedido.nropedido, pedidos.fechaCompra, pedidos.fechaVence, pedidos Observacion, FROM usuario INNER JOIN pedidos ON usuario.identificacion = pedidos.identificacion`
 
 ![consulta12](./img/consulta12.png "consulta12")
+
+13. para viualizar todos los campos de las tablas usuarios y pedidos dode identificacion sea mayor que 100, se debe realizar la siguiente instruccion:
+
+`SELECT usuarios.*, pedidos.* FROM usuaruos INNER JOIN pedidos ON usuarios.identificacion = pedidos.identificacion WHERE usuarios.identificacion>100`
+
+![consulta13](./img/consulta13.png "consulta13")
